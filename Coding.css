@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+.navbar{
+    overflow: hidden !important;
+}
+#backgroundimage{
+    background-color: rgb(0, 0, 0);
+    height: 100vh !important;
+    width: 100vw !important;
+}
+.nav-link a{
+    color: white;
+}
+a:hover{
+    color:#ffff !important;
+    background:linear-gradient( rgba(255, 236, 236, 0.229), rgba(255, 236, 236, 0.229))!important;
+    border-radius: 5px !important;
+}
+.nav-link{
+    font-weight: bold !important;
+}
+.navbar-toggler-icon{
+    background-color: rgba(255, 255, 255, 0.729) !important;
+}
+.container-fluid {
+    width: 100%;
+    padding: 2px !important;
+    margin-right: 2px !important;
+    margin-left: auto;
+}
+
+.codelink a {
+    padding: 0.34em;
+    font-size: 0.8em;
+    text-decoration: none !important;
+}
+
+.codelink {
+    display: flex;
+    align-items: center;
+    justify-content: center !important;
+    border-radius: 20px;
+}
+
+#coding{
+    margin: 1vw;
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    margin-bottom: 5vw;
+    margin-right: 5px !important;
+    padding: 5px !important;
+    gap: 8px !important;
+}
+#day{
+    margin-top: 80px;
+    background-color:#2f3640!important;
+    border: 5px solid rgba(240, 234, 234, 0.744);
+    border-radius: 3px ;
+}
+
+#day1{
+    margin-top: 17px;
+    background-color:#2f3640!important;
+    border: 5px solid rgba(240, 234, 234, 0.744);
+    border-radius: 3px ;
+}
+#coding img {
+    width: 8vw;
+    height: auto;
+    transition: 1s;
+    align-items: center !important;
+    margin-bottom: 3px !important;
+}
+.navbar-toggler-icon{
+    border-radius: 3px !important;
+}
+.font{
+    text-align: center !important;
+    font-size: 10px !important;
+}
+#coding h6 {
+    font-size: 18px !important;
+}
+
+.codelink span{
+    background-color:#39ff14;;
+    color:#182C61;
+    border: 2px solid rgba(240, 234, 234, 0.744);
+    border-radius: 17px;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:600px){
+    #backgroundimage{
+        width: 100vw!important;
+        height: 100vh !important;
+    }
+   
+}
+@media(max-width:600px){
+    #coding img {
+        width: 15vw !important;
+        height: auto;
+        transition: 1s;
+    }
+    #day1{
+        margin-top: 7px !important;
+        background-color:#2f3640!important;
+        border: 5px solid rgba(240, 234, 234, 0.744);
+        border-radius: 3px ;
+    }
+    #coding h6 {
+        font-size: 10px !important;
+    }
+}
+
