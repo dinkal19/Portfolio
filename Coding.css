@@ -40,14 +40,12 @@ a:hover{
     font-size: 0.8em;
     text-decoration: none !important;
 }
-
 .codelink {
     display: flex;
     align-items: center;
     justify-content: center !important;
     border-radius: 20px;
 }
-
 #coding{
     margin: 1vw;
     display: grid;
@@ -63,7 +61,6 @@ a:hover{
     border: 5px solid rgba(240, 234, 234, 0.744);
     border-radius: 3px ;
 }
-
 #day1{
     margin-top: 17px;
     background-color:#2f3640!important;
@@ -94,15 +91,6 @@ a:hover{
     border: 2px solid rgba(240, 234, 234, 0.744);
     border-radius: 17px;
 }
-
-
-
-
-
-
-
-
-
 
 
 @media(max-width:600px){
