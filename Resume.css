@@ -236,6 +236,9 @@ button{
 button a{
     text-decoration: none !important;
 }
+.a11 #py h2 a{
+    text-decoration: none !important;
+}
 @media(max-width:600px){
     #backgroundimage{
         width: 100vw!important;
